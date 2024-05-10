@@ -1,4 +1,8 @@
 # Modified-kLSB
+
+Algorithm A - 2nKLSB_Encode.py
+Algorithm B - 2nKLSB_Encode.py
+
 This has two python files that perform data hiding and extracting using a modified kLSB technique.
 The 2nKLSB_Encode.py requires 3 command line arguments.
 First argument is the cover image, second is the .txt file that contain the secret message and
