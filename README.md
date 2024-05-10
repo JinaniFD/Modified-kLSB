@@ -1,6 +1,7 @@
 # Modified-kLSB
 
 Algorithm A - 2nKLSB_Encode.py
+
 Algorithm B - 2nKLSB_Encode.py
 
 This has two python files that perform data hiding and extracting using a modified kLSB technique.
