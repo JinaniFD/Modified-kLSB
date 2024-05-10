@@ -6,10 +6,10 @@ the third argument is the number of bits to use to hide data. This can be 2, 3 o
 An an output a *_stego_Demo.* file will be created.
 This accepts .tiff, .tif, .png, .bmp, .pgm file types.
 For example
-% python 2nKLSB_Encode.py <cover image> <.txt file with secret message> <3> 
+% python 2nKLSB_Encode.py [cover image .txt] [file with secret message] [3] 
 
 When extracting, 2nKKLSB_Extract.py requires two arguments. First is the cover image and the second is the number of
 bits to extract. AS an output this will create a secret.txt file with the extracted message.
 If 3 bits were used to encode same number of bits must be given as the argument.
 For example
-% python 2nKLSB_Encode.py <stego image> <3>
+% python 2nKLSB_Encode.py [stego image] [3]
